@@ -1,0 +1,72 @@
+* {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+body {
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+}
+
+.navigation {
+  font-size: 16px;
+}
+
+.info {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.search {
+  background-color: rgba(31, 41, 55, 0.6);
+  outline: none;
+  border: none;
+}
+
+.search::placeholder {
+  opacity: 0.6;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.name {
+  font-size: 16px;
+}
+
+.position {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.right {
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+article p:first-child {
+  font-size: 20px;
+}
+
+article p {
+  font-size: 16px;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 600;
+  width: 35px;
+  height: 35px;
+  border-radius: 3px;
+  background-color: rgba(75, 85, 99, 1);
+  font-family: Source Sans Pro, sans-serif;
+}
+
+.logo-title {
+  font-size: 18px;
+}
+
+.menu {
+  list-style: none;
+}
