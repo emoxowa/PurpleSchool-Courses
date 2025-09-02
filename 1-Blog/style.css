@@ -1,0 +1,103 @@
+* {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+body {
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+  margin: 0;
+  padding: 0 180px;
+}
+
+header {
+  padding: 20px 0;
+  margin: 50px 0;
+}
+
+.navigation {
+  font-size: 16px;
+}
+
+.info {
+  font-size: 14px;
+  opacity: 0.6;
+  width: 180px;
+  margin: 0 auto 14px;
+}
+
+.search {
+  background-color: rgba(31, 41, 55, 0.6);
+  outline: none;
+  border: none;
+  width: 224;
+  height: 40;
+  border-radius: 100px;
+  padding: 13px 18px;
+}
+
+.search::placeholder {
+  opacity: 0.6;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  max-width: 525px;
+  margin: 0 auto 30px;
+}
+
+.author {
+  margin-bottom: 28px;
+  min-width: 214px;
+}
+
+.name {
+  font-size: 16px;
+}
+
+.position {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.monitor {
+  margin-bottom: 70px;
+  width: 896px;
+  height: 594px;;
+  border-radius: 5px;
+}
+
+.right {
+  font-size: 16px;
+  opacity: 0.6;
+  margin-top: 100px;
+  margin-bottom: 77px;
+  text-align: center;
+}
+
+article p:first-child {
+  font-size: 20px;
+}
+
+article p {
+  font-size: 16px;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 600;
+  width: 35px;
+  height: 35px;
+  border-radius: 3px;
+  background-color: rgba(75, 85, 99, 1);
+  font-family: Source Sans Pro, sans-serif;
+}
+
+.logo-title {
+  font-size: 18px;
+}
+
+.menu {
+  list-style: none;
+}
